@@ -1,0 +1,25 @@
+.button:first-of-type {
+    margin-left: 0;
+}
+.button {
+    border: 1px solid #c2c2c2;
+    max-width: 107px;
+    padding: 1rem;
+    height: 73px;
+    margin-left: 1rem;
+    background: none;
+    color: #0a3049;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+.button--buttonSelected {
+    background: #dbeffa;
+    border: 3px solid #3cabaa;
+}

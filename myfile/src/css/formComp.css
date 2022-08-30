@@ -1,0 +1,55 @@
+.wrapper {
+    display: flex;
+}
+.wrapper__formControl {
+    padding: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+}
+.wrapper__inputContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1rem;
+}
+.wrapper__inputContainer__inputStyles {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: none;
+    height: 2rem;
+    border-bottom: 1px solid black;
+}
+.wrapper__inputContainer__submitButton {
+    background: #e11f26;
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 240px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    height: 48px;
+    border-radius: 2px;
+}
+.wrapper span {
+    color: #ed684e;
+}
+.wrapper h1 {
+    text-align: left;
+    font-size: 14px;
+    color: #0a3049;
+}
+.wrapper p {
+    margin: 1rem 0 0 0;
+    padding: 0;
+    text-align: left;
+    color: #ed684e;
+}
+.wrapper label {
+    width: 100%;
+    margin-top: 1rem;
+}
+.wrapper fieldset {
+    border: none;
+    padding: 0;
+}
